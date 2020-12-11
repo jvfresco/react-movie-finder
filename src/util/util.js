@@ -56,7 +56,7 @@ export const useRatings = (props) => {
 
   useEffect(() =>{
     if(props.movieData){
-      const url = 'http://www.omdbapi.com/?apikey=' + imdbApiKey + '&i=' + props.movieData.imdb_id;
+      const url = 'https://www.omdbapi.com/?apikey=' + imdbApiKey + '&i=' + props.movieData.imdb_id;
       fetch(url).then(response => response.json())
       .then(data =>{
         setImdbData(data);
