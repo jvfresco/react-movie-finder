@@ -1,0 +1,29 @@
+.Navbar {
+  position:relative;
+  padding: 20px 0px;
+}
+
+input {
+  border: none;
+  background: none;
+  width: 100%;
+  height: 30px;
+  font-size: 1.5em;
+  color: white;
+  border-bottom: 1px solid white;
+  border-image-source: linear-gradient(to right, white, transparent);
+  border-image-slice: 1;
+  outline:none;
+}
+
+@media(min-width: 800px){
+  input{
+    width:60%;
+  }
+}
+
+@media(max-width: 400px){
+  input{
+    font-size: 1em;
+  }
+}

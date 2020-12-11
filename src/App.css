@@ -1,0 +1,48 @@
+.Container {
+  margin: auto;
+  overflow: auto;
+  font-family: 'Jost', sans-serif;
+  height:100vh;
+  box-sizing: inherit;
+}
+
+.Background {
+  width: 100%;
+  margin:0;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: black;
+  background-position: center;
+}
+
+.Shadow {
+  background-image: linear-gradient(rgba(0,0,0,.75) 5%,rgba(0,0,0,.1) 50%,#000 95%);
+}
+.Courtain {
+  background-color: rgba(0,0,0,0.5);
+  width:100%;
+}
+
+@media (min-width: 300px){
+  .Container {
+    max-width: 100%;
+  }
+}
+@media (min-width: 600px){
+  .Container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 800px){
+  .Container {
+    max-width: 740px;
+  }
+}
+@media (min-width: 1200px){
+  .Container {
+     max-width: 1140px;
+  }
+ }

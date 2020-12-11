@@ -1,0 +1,26 @@
+.Center {
+  display: inline-block;
+}
+
+.Scores, .AverageScore {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.AverageRating {
+  color: white;
+  font-size: 50px;
+}
+
+.Stars {
+  display: inline-block;
+  font-size: 20px;
+  font-family: Times; 
+  line-height: 1;
+  letter-spacing: 3px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

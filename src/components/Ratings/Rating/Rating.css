@@ -1,0 +1,19 @@
+.Rating {
+  color: white;
+  text-align: left;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin: 12px 6px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 15px;
+}
+.Source {
+  width: 160px;
+}
+
+.Value {
+  background-color: red;
+  height: 100%;
+  padding: 0 5px;
+}

@@ -1,0 +1,48 @@
+
+.Title {
+  display:block;
+  float:left;
+  width:65%;
+}
+
+.Row {
+  display: flex;
+  cursor: pointer;
+  width:100%;
+  border: 15px solid transparent;
+ 
+}
+
+.Row:hover {
+  background-color:hsla(0, 100%, 50%, 0.425);
+}
+
+@media (min-width: 300px){
+  .Poster{
+    display: none;
+  }
+  .Release {
+    display: none;
+  }
+}
+@media (min-width: 600px){
+  .Release{
+    display:block;
+    float:left;
+  }
+}
+@media (min-width: 800px){
+  .Poster {
+    display: block;
+    width: 12%;
+    float:left;
+    padding-left:15px;
+    padding-top:5px;
+  }
+  .Row {
+    border: none;
+  }
+  .Release, .Title {
+    line-height: 79px;
+  }
+ }

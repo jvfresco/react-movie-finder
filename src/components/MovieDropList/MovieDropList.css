@@ -1,0 +1,39 @@
+.List {
+  list-style: none;
+  padding: 0;
+  color: white;
+  background-color:hsla(0, 0%, 0%, 0.95);
+  position:absolute;
+  transform: scaleY(0);
+  transform-origin: 0 0;
+  opacity: 0;
+  z-index:1;
+  /*transform: scaleY(0); */
+}
+
+a {
+  color:white
+}
+
+.MovieMember {
+  transform: translateY(20px);
+  opacity:0;
+}
+
+@media (min-width: 300px){
+  ul {
+    width: 100%;
+  }
+}
+
+@media (min-width: 800px){
+  ul {
+    border-collapse: unset; 
+  }
+}
+
+@media (min-width: 1000px){
+  ul {
+    width: 60%;
+  }
+}

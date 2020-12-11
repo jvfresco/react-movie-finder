@@ -1,0 +1,11 @@
+
+.PosterTitle {
+  opacity:0;
+  color: rgba(0, 0, 0, 0);
+  transform: scaleX(0);
+  display:block;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  background-color:hsla(0, 0%, 99%, 0.65);
+}

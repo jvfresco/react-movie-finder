@@ -1,0 +1,23 @@
+.Footer {
+  clear: both;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9) 50%, transparent);
+  text-align: center;
+  overflow-y: hidden;
+  color: #373737;
+}
+
+.Animation {
+  opacity: 0;
+  transform: translateY(30px)
+}
+
+.Logo {
+  float: left;
+  margin:10px 10px;
+  opacity: 0.3;
+}
+
+.Logos {
+  overflow:auto;
+  display: inline-block;
+}
