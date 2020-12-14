@@ -15,5 +15,6 @@ The project connects to TMDB API as well as connects to IMDB API to obtain the d
 - React
 - Functional components, hooks and custom hooks
 - Routing
-- Animations done with GSAP
+- Animations with GSAP
 - Style managed with css modules
+- TMDB and IMDB API
