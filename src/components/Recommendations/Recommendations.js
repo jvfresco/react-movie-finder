@@ -57,10 +57,10 @@ const recommendations = ({id, requestMovieData}) => {
                   onMouseEnter={() => setHoveredPoster(recommendation.id)}
                   onMouseLeave={() => setHoveredPoster(null)}
                 >
-                  {hoveredPoster === recommendation.id ? (
-                    <PosterTitle title={recommendation.title} />
-                  ) : null}
                   <Link to={`/movie/${recommendation.id}`}>
+                    {hoveredPoster === recommendation.id ? (
+                      <PosterTitle title={recommendation.title} />
+                    ) : null}
                     <img
                       className={classes.PosterImage}
                       src={
