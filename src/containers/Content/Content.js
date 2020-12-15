@@ -26,6 +26,7 @@ const content = props =>{
  
   useLayoutEffect(()=>{ //Animation executed only the first time the component loads
     tl.add(gsap.fromTo(contentRef.current, 2, {y:30, opacity: 0.5}, {y:0, opacity:1}),0);
+    tl.add(gsap.fromTo(posterImage.current, 1, {x:30, y:-30, autoAlpha:0}, {x:0, y:0, autoAlpha:1}),1);
    },[]);
   
   useLayoutEffect(()=>{ //Animation executed after a change of movie and animation not already active
