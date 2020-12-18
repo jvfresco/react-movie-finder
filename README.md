@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-Visit a live version of this application [here](https://fispe.github.io/react-movie-finder/).
+Visit a live version of this application [here](https://jvfresco.github.io/react-movie-finder/).
 
 ## Movie Finder
 
